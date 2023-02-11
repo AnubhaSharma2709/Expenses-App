@@ -34,3 +34,7 @@
 //in columns:
 //1.Main Axis- Y-Axis
 //2.Cross Axis - X-Axis
+
+//in rows
+//1.Cross Axis - y axis
+//2.Main Axis - x axis
