@@ -12,7 +12,12 @@ class Homepage extends StatelessWidget {
       body: Column(
         children: <Widget>[
           Card(
-            child: Text('Chart here'),
+             child: Container(
+              width: double.infinity,
+              color: Colors.blue,
+              child: Text('Chart here'),
+            ),
+            elevation: 5,
           ),
           Card(
             child: Text('List of all TX'),
