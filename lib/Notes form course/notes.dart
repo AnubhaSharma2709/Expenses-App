@@ -28,3 +28,9 @@
 //1.Text Field
 //2.raised Button/Flat Button
 //3.Gesture Detector/ink well
+
+
+//Row and Columns
+//in columns:
+//1.Main Axis- Y-Axis
+//2.Cross Axis - X-Axis

@@ -10,16 +10,17 @@ class Homepage extends StatelessWidget {
         title: Text('Expenses Tracker'),
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           Card(
+             elevation: 5,
              child: Container(
               width: double.infinity,
               color: Colors.blue,
               child: Text('Chart here'),
             ),
-            elevation: 5,
           ),
-          Card(
+          const Card(
             child: Text('List of all TX'),
           ),
         ],
